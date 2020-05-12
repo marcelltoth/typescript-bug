@@ -1,0 +1,19 @@
+{
+  "name": "typescript-bug-demo",
+  "version": "1.0.0",
+  "description": "Demonstrates typescript bug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelltoth/typescript-bug"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "~3.9.2"
+  }
+}
